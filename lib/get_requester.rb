@@ -22,7 +22,7 @@ class GetRequester
 
   def parse_json
     parsed_json = JSON.parse(self.get_response_body)
-    parsed_json.collect
+    parsed_json
   end
 
 
