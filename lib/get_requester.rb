@@ -9,7 +9,7 @@ class GetRequester
 
 
   def initialize(url)
-    @url = url 
+    @url = url
 
 
   end
